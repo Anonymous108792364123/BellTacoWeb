@@ -1,3 +1,3 @@
 Welcome to the Bell Taco website!
 
-We would appretiate if you did not use our code please!
+I would appretiate if you did not use my code.

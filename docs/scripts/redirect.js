@@ -1,4 +1,4 @@
-if( navigator.userAgent.indexOf("MSIE")) {
+if( navigator.userAgent.indexOf("MSIE") != -1 ) {
     alert("Uhh");
   }
 

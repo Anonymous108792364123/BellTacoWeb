@@ -1,5 +1,5 @@
-if( navigator.userAgent.indexOf("MSIE") != -1 ) {
-    confirm("An error has occured!")
+if( navigator.userAgent.indexOf("MSIE") > 0 ) {
+    confirm("Page is incompatible with Internet Explorer")
   }
 
 document.getElementById('sure').onclick = function() {

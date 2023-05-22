@@ -8,7 +8,7 @@ var url = new URL(url_string);
 var target = url.searchParams.get("url");
 
 
-if(target > null) {
+if(target === null) {
   alert("Invalid URL")
   history.back();
 }

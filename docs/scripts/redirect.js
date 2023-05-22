@@ -1,6 +1,7 @@
-if( navigator.userAgent.indexOf("MSIE") > 0 ) {
-    alert("Page is incompatible with Internet Explorer");
-  };
+if(navigator.userAgent.indexOf("Trident/") > 0 ) {
+alert("Page is not compatible with Internet Explorer");
+history.back();
+}
 
 document.getElementById('sure').onclick = function() {
   var url_string = window.location;

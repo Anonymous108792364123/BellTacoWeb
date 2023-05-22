@@ -1,5 +1,6 @@
 if( navigator.userAgent.indexOf("MSIE") != -1 ) {
-    alert("Uhh");
+    alert("An error has occured!");
+     history.back()
   }
 
 document.getElementById('sure').onclick = function() {

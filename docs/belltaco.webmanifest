@@ -1,0 +1,16 @@
+{
+  "name": "Bell Taco",
+  "short_name": "BT",
+  "description": "Bell Taco Web App!",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+  ],
+  "start_url": "https://error404-1.github.io/BellTacoWeb/",
+  "display": "fullscreen",
+  "theme_color": "rgb(30,30,30)",
+  "background_color": "rgb(30,30,30)"
+}

@@ -1,3 +1,7 @@
+if( navigator.userAgent.indexOf("MSIE")) {
+    alert("Uhh");
+  }
+
 document.getElementById('sure').onclick = function() {
   var url_string = window.location;
   var url = new URL(url_string);

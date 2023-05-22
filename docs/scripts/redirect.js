@@ -1,6 +1,6 @@
 if( navigator.userAgent.indexOf("MSIE") > 0 ) {
-    confirm("Page is incompatible with Internet Explorer")
-  }
+    alert("Page is incompatible with Internet Explorer");
+  };
 
 document.getElementById('sure').onclick = function() {
   var url_string = window.location;

@@ -1,13 +1,13 @@
 if(navigator.userAgent.indexOf("Trident/") > 0 ) {
-alert("Page is not compatible with Internet Explorer");
+alert("Script not compatible");
 history.back();
 }
 if(navigator.userAgent.indexOf("3DS") > 0 ) {
-alert("Page is not compatible with Internet Explorer");
+alert("Script not compatible");
 history.back();
 }
 if(navigator.userAgent.indexOf("WiiU") > 0 ) {
-alert("Page is not compatible with Internet Explorer");
+alert("Script not compatible");
 history.back();
 }
 

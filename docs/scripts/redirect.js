@@ -1,14 +1,8 @@
-if(navigator.userAgent.indexOf("Trident/") > 0 ) {
-alert("Script incompatibility error");
-history.back();
-};
-if(navigator.userAgent.indexOf("Nintendo WiiU") > 0 ) {
-alert("Script incompatibility error");
-history.back();
-};
-if(navigator.userAgent.indexOf("Nintendo 3DS") > 0 ) {
-alert("Script incompatibility error");
-history.back();
+if(navigator.userAgent.indexOf("Firefox/") === 0 ) {
+  if(navigator.userAgent.indexOf("Chrome/") === 0 ) {
+    alert("Script incompatibility error");
+    history.back();
+  };
 };
 
 var url_string = window.location;

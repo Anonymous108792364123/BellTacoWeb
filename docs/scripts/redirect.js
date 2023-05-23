@@ -1,9 +1,15 @@
-if(navigator.userAgent.indexOf("Firefox") === 0 ) {
-  if(navigator.userAgent.indexOf("Chrome") === 0 ) {
-    alert("Script incompatibility error");
-    history.back();
-  };
-};
+if(navigator.userAgent.indexOf("Trident/") > 0 ) {
+alert("Page is not compatible with Internet Explorer");
+history.back();
+}
+if(navigator.userAgent.indexOf("3DS") > 0 ) {
+alert("Page is not compatible with Internet Explorer");
+history.back();
+}
+if(navigator.userAgent.indexOf("WiiU") > 0 ) {
+alert("Page is not compatible with Internet Explorer");
+history.back();
+}
 
 var url_string = window.location;
 var url = new URL(url_string);

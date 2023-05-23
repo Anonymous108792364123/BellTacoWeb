@@ -1,5 +1,5 @@
-if(navigator.userAgent.indexOf("Firefox/") === 0 ) {
-  if(navigator.userAgent.indexOf("Chrome/") === 0 ) {
+if(navigator.userAgent.indexOf("Firefox") === 0 ) {
+  if(navigator.userAgent.indexOf("Chrome") === 0 ) {
     alert("Script incompatibility error");
     history.back();
   };
